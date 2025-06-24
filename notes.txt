@@ -1,0 +1,4 @@
+1.Authentication Module
+
+Backend- Node.js,Express,JWT,bcrypt
+Frontend-React
