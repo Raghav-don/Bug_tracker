@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import Bugs from "./pages/Bugs";
 import ReportBug from "./pages/ReportBug";
 import PrivateRoute from "./utils/PrivateRoute";
+import "./App.css";
 
 // This is the main App component that sets up the routing for the application.
 // It includes a Navbar and defines routes for different pages.

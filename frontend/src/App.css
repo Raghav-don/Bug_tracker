@@ -1,38 +1,85 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Oswald:wght@200..700&display=swap');
+
+body{
+  font-family: "Libertinus Math", system-ui;
+  background-color:beige;
   text-align: center;
+  margin-top: 20px;
+  font: weight 400px;
+  font-size: larger;
+  text-decoration: none;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  font-family: "Libertinus Math", system-ui;
+  width:60%;
+  height:35px;
+  border-radius:2px;
+  margin:10px;
+  cursor:pointer;
+  box-shadow:2px 2px 1px slategray ;
+  box-sizing:inherit;
+  border-width:1px;
+  border-color:black;
+  
+}
+select{
+  font-family: "Libertinus Math", system-ui;
+  width:40%;
+  height:35px;
+  border-radius:10px;
+  margin:10px;
+  cursor:pointer;
+  box-shadow:2px 2px 1px slategray ;
+  box-sizing:inherit;
+  margin-top:5px;
+  border-color:black;
+  font-size: medium;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input,select:hover{
+  background-color: beige;
+}
+button{
+  width:30%;
+  border-radius: 20px;
+  height: 30px;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover{
+  background-color: #dc7186;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+form{
+  
+  background-color: rgb(208, 230, 223);
+  width:50%;
+  margin-left:auto;
+  margin-top:3cm;
+  margin-right:auto;
+  margin-bottom:auto;
+  border-radius: 20px;
+  box-shadow: inset;
+  box-sizing:border-box;
+  box-shadow:5px 5px 10px slategray ;
+  font-size: medium;
+
+  
+}
+.links{
+  padding:5px;
+
+
+}
+.link_login{
+  font-size: small;
+  margin-top: 2px;
+
 }

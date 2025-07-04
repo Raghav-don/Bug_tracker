@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav style={{ padding: 10, borderBottom: "1px solid gray" }}>
-      <Link to="/">Home</Link> |{" "}
+      <Link className="links" to="/">Home</Link> |{" "}
       {user ? (
         <>
           <Link to="/projects">Projects</Link> | <Link to="/bugs">Bugs</Link> |{" "}
@@ -19,7 +19,7 @@ const Navbar = () => {
         </>
       ) : (
         <>
-          <Link to="/login">Login</Link> | <Link to="/register">Register</Link>
+          <Link className="links" to="/login">Login</Link> | <Link to="/register">Register</Link>
         </>
       )}
     </nav>
